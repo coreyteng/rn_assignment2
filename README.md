@@ -1,50 +1,20 @@
-# Welcome to your Expo app 👋
+### 第一種 計數器
+一個按鈕是拿來計數用，也就是記有幾個值，每按一下就加一（或是每按一次就加10）。
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+那另一個按鈕就是歸零。
 
-## Get started
+大家也可以再多加先不同的功能上去。：）
 
-1. Install dependencies
+### 第二種 切換頁面用的按鈕
+這是一個進階的作業，大家也可以試試看來挑戰一下！
+做兩個按鈕切換不同的頁面，看起來就像tab一樣，
 
-   ```bash
-   npm install
-   ```
+也就是按到的按鈕不同，所render出來的畫面也不同，
 
-2. Start the app
+但其實是在同一頁做渲染 XD
 
-   ```bash
-    npx expo start
-   ```
+可以依照這個按鈕的顏色外觀做設計。
 
-In the output, you'll find options to open the app in a
+頁面的內容可以是一頁放各種的圖片或照片，
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+按鈕後再顯示這個圖片的資訊。
